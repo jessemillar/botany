@@ -11,5 +11,6 @@ This repo is for testing a couple theories on how my work team can use tags as p
 
 ## Notes
 - This style is in line with version number precedence [as outlined by the Semantic Versioning standard](https://semver.org/#spec-item-11)
+- A regex for checking the validity of a Semantic Versioning number can [be found here](https://rgxdb.com/r/40OZ1HN5)
 - Having multiple Git tags tracking a version's testing lifecycle will make debugging the CI/CD pipeline and monitoring the testing progress of releases easier and more transparent
 - We could use something like [ghr](https://github.com/tcnksm/ghr) to create our final tag (e.g. `v1.0.0`) and upload our artifact file at the same time for easy download through GitHub but this might be overkill
