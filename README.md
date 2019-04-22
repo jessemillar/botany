@@ -10,7 +10,8 @@ This repo is for testing a couple theories on how my work team can use tags as p
 1. If the QA-INT tests pass, the version is marked as ready to deploy by creating a final tag with just the version number in Semantic Versioning style (e.g. `v1.0.0`)
 
 ## Notes
-- This style is in line with version number precedence [as outlined by the Semantic Versioning standard](https://semver.org/#spec-item-11)
+- This repo is following the versioning standard outlined above and you can [see the tags here](https://github.com/jessemillar/tagging/tags)
+- This version numbering style is in line with version number precedence [as outlined by the Semantic Versioning standard](https://semver.org/#spec-item-11)
 - A regex for checking the validity of a Semantic Versioning number can [be found here](https://rgxdb.com/r/40OZ1HN5)
 - Having multiple Git tags tracking a version's testing lifecycle will make debugging the CI/CD pipeline and monitoring the testing progress of releases easier and more transparent
 - GitHub has a "Releases" system on top of Git tags that allows for descriptive changelogs and uploading artifacts for easy retrieval (screenshot shown below)
