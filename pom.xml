@@ -2,10 +2,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jessemillar</groupId>
     <artifactId>tagging</artifactId>
-    <version>1.3.1-SNAPSHOT</version>
+    <version>1.3.1</version>
     <scm>
         <developerConnection>scm:git:https://github.com/jessemillar/tagging.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>tagging-1.3.1</tag>
   </scm>
     <build>
         <plugins>
