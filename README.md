@@ -15,7 +15,7 @@ This repo is for testing a couple theories on how my work team can use tags as p
 - A regex for checking the validity of a Semantic Versioning number can [be found here](https://rgxdb.com/r/40OZ1HN5)
 - Having multiple Git tags tracking a version's testing lifecycle will make debugging the CI/CD pipeline and monitoring the testing progress of releases easier and more transparent
 - GitHub has a "Releases" system on top of Git tags that allows for descriptive changelogs and uploading artifacts for easy retrieval (screenshot shown below)
-	- We could use something like [`ghr`](https://github.com/tcnksm/ghr) to create our final tag (e.g. `v1.0.0`) and upload our artifact file at the same time for easy download through GitHub but this might be overkill
+	- We could use something like [`ghr`](https://github.com/tcnksm/ghr) to create our final tag (e.g. `v1.0.0`) and upload our artifact file at the same time for easy download through GitHub
 
 > In the screenshot below, `v0.11.0` is marked as a "Pre-release" in GitHub (this can be done via the GitHub UI or via CLI utilities like `ghr`) which tells GitHub to display `v0.10.0` as the latest release since `v0.11.0` isn't done being fully tested.
 
